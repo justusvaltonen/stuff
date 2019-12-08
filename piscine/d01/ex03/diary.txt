@@ -1,0 +1,5 @@
+	This one is sort of simple if you know what to do. The script itself is a short one, but I had to shake some people to get to know the answer. Do a searc from this directory onwards and use the wc command. At last there is a command that seems codable in C in a short amount of time.
+
+	Most likely this is not the only method of accomplishing this task.
+
+	Just a reminder: remember to do backups. Github.com can be used to do that. USB sticks are cheap. I have a history of computers breaking at the worst possible moment.

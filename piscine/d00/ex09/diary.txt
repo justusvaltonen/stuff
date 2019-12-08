@@ -1,0 +1,3 @@
+Again a frustrating one. I dont remember witch file was given to us. You either have to patch stuff back and forth or not. The > makes content to go to a file. If a file doesnt exist, it creates one. Be careful because if a file does exist with content and you dont use the patch command, the previous content will be replaced with the new. This can be taken as a demonstration of git:s exellense.
+
+Accidents can happen very easilly. Version control is a great thing and remember the biggest hazard is always the user. A good programmer knows how to remove the possibility of a n00b destroying precious data by accident. A great programmer removes the possibility of destruction even if tried.

@@ -1,0 +1,11 @@
+
+When I started the bootcamp, I've never used a UNIX based system before. I had used MS-DOS about 20 years ago. Before starting the assignments on day00, I had to learn some basic commands in the terminal and ask others and use google alot.
+
+As the day went by, I began to have the feeling of not going to make it alive or at least not sane. Yet I was still curious to know what the next 4 weeks would hold.
+
+So linux, the no need for mouse system that all my no-life friends used for some reason. I shall also become a 1337h4x0r and save money by never needing a mouseagain. After the piscine my social contacts have faded and Ive started to drink coca-cola instead of beer.
+
+--------------------
+
+https://www.linuxjournal.com/content/understanding-public-key-infrastructure-and-x509-certificates
+A link to something else than any of the assignments. Different kind of security protocol from LADP.

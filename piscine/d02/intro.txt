@@ -1,0 +1,6 @@
+
+	I promised to make an abrivation generator, but I realized it already exists. It's called apg.
+
+	Joke: Why do programmers confuse christmas with halloween? Dec25 = Oct31
+
+	

@@ -1,0 +1,8 @@
+
+When I started this I had no idea what the hell was I supposed to do, but with a bit of help I understood what was asked of me. Still no clue on how to do it. Ended up copying someones work and demanding explanation on what did I just do. My remake is not going to be perfect because of lack of motivation on spending too much time on google. Basic idea will be made clear, but details may be missing.
+
+What was done here was to change privilages with chmod to 455 (user:read, group:read and execute, everyone else: read execute). Notice the time of modification. Im quite sure I got this to work previously but now it seems too time consuming and unneccesary. There is also maximum size in bytes that needs to be modified. If I recall correct, it was set with touch on creation of the file. Other way of doing it is to type 40 random characters and saving.
+
+Since we didnt have root password in the bootcamp, I think we had to make the privilage changes last (man touch and man chmod).
+
+After it was done, we were given the script with what we could make the .tar file to push to a given repository. By this time Ive never heard of git, but thanks to other helpful people, I was able to pass this assignment even tho I got it wrong.

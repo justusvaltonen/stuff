@@ -1,0 +1,41 @@
+
+	This is a funny one. There is a technique to do this without thinking too much. I just don't know what it is and this seems pretty time consuming for a noob. I definetley will get back on this one in the future. Ill have to ask a math no-life, they always have cheat codes on stuff like this to make things easy.
+	
+	What needs to be done here once the syntax is known:
+1. Figure out what number corresponds what character.
+2. Find out is there a possibility to make a program inside the .sh that could be run without anything but the standard libraries. Oops, no functions allowed.
+3. At a quick glance this seems doable but then the segmentation fault one has 13 different states. But wait, the alphabet consist of 26 characters. Maybe we can somehow assign two "base 26 (the alphabet)" chars per base 13 state?
+
+	Since illuminati confirmed and everything is connected, we can see a reseblence to a binary system. Each base 13 char is 1 or 0. Maybe we can work with this later on.
+
+4. The cartoon swearword base consists of 5 chars and the mcgyver nemesis base also consists of 5 chars. This is like normal 0-9 digits.
+
+	The first couple of intuitive approaches didn't do the trick. These bastards are scrambled. Hmm.. maybe the answer lies in reversing one of the orders of the given base. Even tho this is exiting, it hurts my brain. If only had I studied poker more to know combination math. This should be easy since we already know the answer. We only have to combo the key.
+
+{
+	echo $FT_NBR1 + $FT_NBR2 | tr "mrdoc" "01234" | tr "'\\\\\"?\!" "01234" | xargs echo "obase=13; ibase=5;" | bc | tr "0123456789ABC" "gtaio luSnemf"
+}
+&&
+{
+echo "$FT_NBR1 + $FT_NBR2" | tr "mrdoc" "01234" | tr "'" "0" | tr '\\"?!' '1234' | xargs echo "obase=13;ibase=5;" | bc | tr "0123456789ABC" "gtaio luSnemf"
+}
+
+	Are interweb answers. Those are never correct but give an idea where to start. After looking them up, this doesn't seem as fun anymore.
+	No worries, this gives an idea to what sort of commands might be useful. For example xargs is new to me (man xargs) and so is bc (man bc).
+	Export AERO=3 and export PLANE=2 to test syntax. After that echo "$AERO + $PLANE" | bc gives the right answer.
+	Hmm.. in the first example both inputs had 8 chars but the output had only 5. How does the machine know when to move to the next index in both input or output. Is there a secret result that does that?
+	In the bootcamp I first heard about the % operator in C. It could have something to do with that or not. Also we did some numberphile stuff. That could also come in handy when one day Ill crack this. Or Ill just use a premade program.
+	We also did the rot42 that was based on the famous rot13. Ahaa, illuminati confirmed. My intuition on the alphabet might have been right after all.
+	While reading the man bc I stumbled upon scale, ibase, obase and last. The code in the atk www had obase and ibase in it. Most likely this is not some mambo jambo even tho it seemed so at first glance. Not sure what Im reading now but it seems that obase and ibase are base 10 variables. I think it would be good to replace obase with last.
+
+	Taken from man bc:
+
+The legal values
+       of ibase are 2 through 36. (Bases greater than 16  are  an  extension.)
+       Assigning a value outside this range to ibase will result in a value of
+       2 or 36.  Input numbers may contain the characters 0–9 and A–Z.  (Note:
+       They must be capitals.  Lower case letters are variable names.)
+
+	Does this mean that either the mrdoc or the Segmentation fault base is not what it seems? Also the swearword base can be operators to when to jump to the next index of a string.
+	One possibility is also that some syntax makes us use / or some other character before some other special character to read the special character. We used \ or / before while naming the file and in C, % is used. Im never going to get some rest.
+	Where is Alan Touring when you need one.

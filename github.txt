@@ -1,0 +1,11 @@
+
+-Remember to make different branches for different areas as you would when youre coding.
+-Name your branches so that it can be seen on what you are working on
+-Some stuff you want to keep private, some you dont. Change the settings
+-Github can be used as a diary on what you have been producing. Put your code online on a daily basis
+-You can make official repos and not so official repos'
+-Read the manuals on how to contribute to other projects and assign yourself tasks
+-Remember to add detailed comments when you commit. At first this seems unneccessary but on due time its a good habit to have.
+-Most likely other people will review your code and use caps on feedback. Fix your stuff and commit again.
+-Issues page exists. Use it. Tag your fixes so they can be tracked.
+-Project page can be used to organize different projects.

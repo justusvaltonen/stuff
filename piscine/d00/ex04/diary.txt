@@ -1,0 +1,2 @@
+
+I know kerberos is some kind of a security authentication system. There are others too and for your own use you can make your own. If you make your own, it's unlikely to work with other systems unless you made them yourself. Having no experience doing this, it seems hard and most likely is. Very interesting area of research tho.

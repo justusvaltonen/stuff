@@ -1,0 +1,2 @@
+
+I have done this sort of stuff when I configured my git for the first time. By looking at the assignment I'm guessing the list with the data is not located in our own computer, but instead in a server.

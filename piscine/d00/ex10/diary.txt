@@ -1,0 +1,7 @@
+
+The find function by default searches the subdirectories. There are some nasty details in this assignment.
+
+Couldnt seem to figure out how to search with two parameters. Find manual was a bit long although there was info to be found on the end of the man. The intuitive approach for me was !find ./ type -f -name "#*#" "*~"! while removing the !.
+This gives an error that corresponds to end part of man find. I still cant figure out how to get it all to work on a single commmand. Also notable info is that the file that contains the script is different of what was to be returned.
+
+Some sort of make an empty file and after that self destruct has to be made and is easilly missable. How are these assignments made for people who for the first time in their life use UNIX?

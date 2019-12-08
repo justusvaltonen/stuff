@@ -1,0 +1,13 @@
+
+	Not sure what is asked of me. In the example it looks to me that the file is executed and then a number 2 is dumped in to the abyss. Im not sure if the output of the file is dumped also. When I try replicating the syntax and dumping the output in to a textfile, textfile recieves nothing. Also there is no error message.
+	Most likely what is the infrastructure in this assignment is a group on a server. The server has info on its users that can be modified and this retrieves that data or to be precise the amount of users.
+	This is the 8th assignment witch indicates that this cannot be that simple. Maybe there is some authentication thing that needs to be counted for?
+	I know there are software that can scan this info but I have a feeling that they are complex. If this command should be runnable universally on different machines, I believe certs need to be aquired. I don't know what version of kerberos hive had since I no longer have access there and I was too n00b to even think about that stuff then. What I do know is that the old kerberos authentication had serious flaws in security and maybe this was a hack assignment.
+	By watching youtube Ive discovered that there were and propably still are multiple ways of gaining access to "secure" places. Can't wait to get a server to experiment stuff.
+
+https://www.exploit-db.com/
+Here are known exploits listed for inspection. What can be more fun than learn by hacking. From what Ive heard, the exploits are usually fixed very soon after discovery. Always remember to keep your stuff updated...
+	Unless you want to see what happens if they are not. If you do this, I recommend that you don't think that your data is yours anymore.
+
+https://pen-testing.sans.org/blog/2017/11/27/understanding-and-exploiting-web-based-ldap/comment-page-1/
+Not usable I believe but cool to know

@@ -1,0 +1,4 @@
+
+	This one is weird. Im sure that the info is out there but doing time consuming research at this point on a single command that I haven't used anywhere else than these assignments is pointless. However the source code is going to be an interesting subject at some point.
+	I copied the answer to this one from a maxlvl wizard in the bootcamp. The logic behind this is weird. If I understand what Im reading from the man, this shouldn't work. I see no mentions on \ or ; that fit the implementation.
+	I did a bit of testing and this was the only way I could make it work with sed.

@@ -1,0 +1,2 @@
+
+The way to finding the correct answer is man ls. I didn't go trough the trouble of reading it again and just copied what I previously did. I'm not sure if it is correct. The info is there, just have to read it.

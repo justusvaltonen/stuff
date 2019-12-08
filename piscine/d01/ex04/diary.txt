@@ -1,0 +1,27 @@
+
+A quote from man grep:
+
+Character Classes and Bracket Expressions
+       A  bracket  expression is a list of characters enclosed by [ and ].  It
+       matches any single character in that list; if the  first  character  of
+       the  list is the caret ^ then it matches any character not in the list.
+       For example, the regular expression  [0123456789]  matches  any  single
+       digit.
+
+       Within  a  bracket  expression,  a  range  expression  consists  of two
+       characters separated by a hyphen.  It matches any single character that
+       sorts  between  the  two  characters,  inclusive,  using  the  locale's
+       collating sequence and character set.  For example, in  the  default  C
+       locale, [a-d] is equivalent to [abcd].  Many locales sort characters in
+       dictionary  order,  and  in  these  locales  [a-d]  is  typically   not
+       equivalent to [abcd]; it might be equivalent to [aBbCcDd], for example.
+       To obtain the traditional interpretation of  bracket  expressions,  you
+       can  use the C locale by setting the LC_ALL environment variable to the
+       value C.
+
+This assignment was accomplished using brackets. Type ifconfig in terminal to get some network info. MAC addresses are standardised to look the same. Only the numbers and letters change. You can also grep from the ether line, and then end the output on a whitespace. Of course before that you have to not show the ether and the first whitespace.
+	I did not know how to do this but I was lucky that somebody did so now I know also. We don't have to delete the extra lines of info since we are only printing the exact match using -o. The way that these are displayed varies a bit, but the answer should be correct but doesn't neccessary cover all cases.
+
+	MAC addresses are hardware identificators used in different sort of devices. See the wiki page. They are used for surveilance. By adding a delay on sending the address upon call, mass survailance is made a bit more difficult. If understood correctly, they are required for wireless functionality. This technology offers possibilitys but takes away freedom to be anonymous. Many things do, but it is very hard to function without wireless communication in a modern society.
+
+	We shall see what the future holds for us.

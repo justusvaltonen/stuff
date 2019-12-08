@@ -1,0 +1,16 @@
+
+	Maybe the second day will be easier. I'm writing this 4 months after the bootcamp and I've been studying on a weekly basis so some of these assignments are solvable. Still a lot of stuff not ready yet.
+
+	I've discovered that you can randomly generate 3 letters and almost always they have a meaning in CS (computer science). Sometimes as you can see even 2 letters may have a meaning. If they don't, you can always create one. Sometimes they can have multiple meanings and it can be a bit confusing.
+
+	Ill make a random abbrevation generator for d02. Quote from www "To generate a truly random string, place a new user in front of Emacs (or Vim) and ask them to exit". Sadly this will result in a longer than 3 char output and a bashed computer. Hey now I get where the name comes from.
+
+	When I first read the man page of ls command, the first thing that popped in to my head was pen and teller fool us --> it was funreadable. Wordplays are funny.
+
+	Sometimes the abbreviations can mean a totally different thing than one might intuitively think. BSCon or DEFCon are not what you would first think.
+
+-----------------------
+
+These texts are a walktrough on my thought process and therefore might miss some crutial information and there might be errors.
+
+I started the remake of d01 at 11am and finished at 9pm and I didn't complete almost any of the assignments. This is 4 months after the piscine. I haven't studied much linux stuff, but I definetley know a lot more than I used to. This bootcamp was not an easy one for a person who hadn't used a computer in more than 15 years.

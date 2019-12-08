@@ -1,0 +1,2 @@
+
+I've played with linux for 3 months now and I still don't know the answer to this one. A quick read from the man file tells that this is a lower level stuff than C. I'll skip this one for now

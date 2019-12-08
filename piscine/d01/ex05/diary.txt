@@ -1,0 +1,3 @@
+
+It is creatable. Before every special character put a "/". Not going to make this since it's a pain in the airbnb. Also noticable that depending on your text editor, the file can be a byte too big. I think it has something to do with the programming of the editor. Maybe an editor reads the content of a file as a string and therefore adds an extra null terminator or something. EMACS or NANO could make this one the correct way.
+	Most likely I'm wrong on the reasoning since popular editors shouldn't be open for exploits. From the previous assignments there was a case where a file was made and a maximum size was pre-determined. I haven't tested this and for now won't.

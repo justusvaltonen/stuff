@@ -1,0 +1,26 @@
+
+	This I got wrong the first time even tho I got points for it. By this time it was getting clear that the videos provided to us are a scam but since I was not sure on what I was doing, I brushed these thoughts aside.
+
+	Enviroment variables ase sort of tags that can be used as links. For example LOGNAME=wizard means that you are logged in as wizard but you can use $LOGNAME instead of wizard. If you type env in the console, you can see a lot of these variables. Most are created upon startup however you can make these yourself.
+
+	When logging out self created variables are destroyed unless made "sticky". There is a file somewhere near the root where these exist or they are coded somewhere else.
+
+	There is a groups command that prints the groups of the current user (man groups). These groups are used for privilages. You can type cat /etc/groups to inspect different groups. There is an ID for each group in this list. Each user has their own group and addition to that they can be in a different group.
+
+	Type cat /etc/passwd in the console to see another list that resembles the groups list. Google more to understand this better. GID is group id. UID is user id. WTF is... RTFM.
+
+	More info can be found youtube and google. Related to system administration linux.
+
+	Back to the assignment. Since we dont have FT_USER in our env list, we have to create one. This FT_USER:s content should be current login, in this example wizard. We can create a enviroment variable using the command export. After that we link that with already existing LOGNAME that has the current logname inside it no matter who you are logged in as.
+
+	We then only have to write a small script inside print_groups.sh file. First line create the FT_USER, second line execute the command groups with the addition of tr (man tr), that replaces characters, but can be used to do more than that.
+
+	How do we test this? If we just type in console: groups $FT_USER it gives the groups of current user instead of FT_USER because FT_USER is not created yet. No error message is displayed. In the bootcamp we don't have privilages to create other users. It is easy to get the output to look correct but verifying is hard. We can cat the /etc/group and get another group from there. I didn't do this back then, but now I know that it works. There might be a twist that I don't know tho.
+
+	Just noticed something. If we do the above, our output looks like bond,:,bond,adm ... In the assignment pdf the example didn't have a : in it so we need to remove that as well. Also when executed with the user nour, output didn't have nour typed 2 times. I don't have the energy to correct this now.
+
+	Another detail: in the example there is no end of line at the end so we need to tr that away also.
+
+https://hackjutsu.com/2016/08/04/Difference%20between%20set,%20export%20and%20env%20in%20bash/
+
+More detailed info on how things work in linux. Not an easy read for a person who started using a computer yesturday, but with sleeples nights with google by ones side, is understandable.

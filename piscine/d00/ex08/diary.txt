@@ -1,0 +1,1 @@
+I use vim so i typed Z and pressed enter. For other editors you might have to use another trick or not press enter

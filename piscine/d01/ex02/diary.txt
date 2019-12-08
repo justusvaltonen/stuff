@@ -1,0 +1,18 @@
+
+	Finally an easy one. Type find . -name "*.sh" | tr -d ".sh" right? Well not exactly. (Previous in english: "find" to do a search. "." from the current directory onwards. "-name "*.sh"" search with a name that has anythign in the beginning but ends with .sh. "|" take the output and instead of diplaying it, first run the following task. "tr -d ".sh"" delete the following string .sh and after that display what was left.
+
+	The last one functions a bit differently. It appears that it deletes every appearance of "s", "h", ".". Addition to this output shows the path from this folder on to the location of the file we are searching for. So this works only if you dont have any of the above characters in the file name and no subdirectories.
+
+	I asked for assistance again on this one and I don't have the motivation to test this properly but my answer was: find . -name "*.sh" | sed 's!.*/!!' | sed 's!.sh$!!'
+
+	Translation to my knowledge after the "|": use sed stream editor, inside the '' is what we want to do. s for substitute, ! for alternative to quotemarks, "." from current directory on. "*/" everything until the last "/". "!" end of quote.
+
+	The trick is that the syntax is a bit illogical if I understand this the right way. Instead of substituting with nothing using !! you can use only 1 !. To understand this better, I think it would be good to see the sourcecode of sed. Linux is coded in C they say and most likely the programs that run with it are also. "'" is to end the quote.
+
+	Most likely grep command can be used also. I think there could be a way to deliver with tr as well. Goddamnit why did I man sed. s should be used a bit differently. The man says that the correct syntax holds "{" "}". Maybe they can be replaced with "!". Therefore the last "!" before the pipe (|) would be the same as {. Hmm, no error message shown.. What if { carries to the next pipe?
+
+	Then the output would be sed again? To test we would possibly want to use operators like ' ! {. Does 'your action here! work? How about {desired action!? Sed should be a good tool (haha, tool) they say. There is at least one more program that might come in useful that should be pre installed on linux. It's awk. Try man awk in terminal.
+
+	The cat -e displays end of lines as a "$". When you run the script and pipe it and cat the output it shows the stuff on screen. Hmm.. or does it work like that? If we run a program that prints something and pipe the output, what actually happens? This can be tested by making a script of your own without the unneccessary complexity.
+
+	It seems that only $ is added. Source code for these can be found if one wants to investigate. WARNING! even the easiest of commands have funreadable source code. I tried ls and started to cry. 

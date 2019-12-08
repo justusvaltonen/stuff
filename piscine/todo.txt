@@ -1,0 +1,4 @@
+
+day00: 03(no server yet), 04(same as previous), 05(-||-), 06(-||-), 10(too time consuming), 11(just plain hard, I'll have to study more)
+
+day01: Almost all, fortunately d02 is easier.

@@ -1,0 +1,4 @@
+
+You can make a file that has the script of a command inside. When the file is executed, the command is executed. Example: make a file called fanta.sh, edit the content to have ls inside. When fanta.sh is executed using command bash fanta.sh it does the same as would ls. I don't know what is cn or LDAP other than what could be found with a quick google search. To complete this assignment you have to search uid or user id from some list. This list can be found locally on a computer somewhere in /etc/ or some other place. Each user has their own ID. This applies not only to human users but also machinery inside your computer that need their own uid:s for functionality reasons. I'm not sure if this works the same way in windows, but for UNIX based systems it seems to apply.
+
+For reverse order, you also need to use a specifier. Most likely this is done with the grep command (man grep).
