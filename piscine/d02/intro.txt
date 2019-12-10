@@ -3,4 +3,8 @@
 
 	Joke: Why do programmers confuse christmas with halloween? Dec25 = Oct31
 
-	
+	Now we start doing programs using C. When I got my current computer it didn't have linux in it and to create a familiar enviroment I had to install one.
+	"Soon I discovered that this rock thing was true and Jerry Lee Lewis was the devil" -Ministry, Jesus built my hotrod.
+
+	I also discovered that I didn't have vim, emacs, nano or the standard C librarys installed so I had to install them first. It was pain in the ASS (attribute system show).
+	On this days assignments Ill be including the main for demonstrative pourposes. After this I will try to follow the norme.	

@@ -1,0 +1,38 @@
+        I just realised that all the time I've done these assignments I've been
+doing them wrong. In the bootcamp the function that we used and typed ourself th
+at was to replace putchar, called ft_putchar is flawed.
+	Only problem is that I don't know what can actually happen because of the lack of direct translation from the macro to function. The function might as well be exellent flawless code.
+        I copied the code from another student since I had no idea how C works.
+I happily used it until this day. I kept wondering where the code came from sinc
+e it was not provided to us and seemed way too hard to figure out by oneself.
+        It did seem to work tho. The interweb tells me that putchar is not a fun
+ction after all. It is a macro instead. To me at this point when the compiling p
+rocess is still largely unknown, I see no difference in anywhere else than synta
+x.
+        It is getting a bit frustrating to realize that I have to change my point of view on how things function again. My whole view of world is based on a lie! while(1){fail; learn;} Learning C is an endless loop of failure. I begin to understand why people root for higher level languages. But hey I won't join them if I can beat them.
+        Then again, we were asked to make a function called ft_putchar so we can
+ make it any way we want I guess. Hmm... If I remember correctly, I got some poi
+nts from the d03 assignments. That means that my ft_putchar was acceptable. Is w
+rite considered as a function or is it also a macro? If I remember correctly, no
+ functions were allowed unless specifically mentioned.
+        Could this mean that we can cheat the system by adding tons of libraries
+ and functions inside ft_putchar and make it a function that does something base
+d on the input?
+        This could be confirmed if I only had done the d02 assignments in the bootcamp.
+	Hey.. I have the norme.pdf that has I think all the restrictions in it. Lets check it out.
+        Nothing there but the d02.pdf tells that my own ft_putchar is not used in testing. They will use someone elses ft_putchar therefore it is understandable why only the function that was asked for itself is to be returned for testing.
+	Breaking news! Write is a function so no using write any more for anything else but testing. Because I'm beginning to slip to the lazy side, I think I'll use printf instead.
+	Ship! Just remembered that when compiling with gcc, printf has some bugs in it. Demonstration later on. Then again I had failed to understand stuff before so maybe there is no bug and I'm just doing it wrong. I tested compiling the buggy code with a clang compiler and it worked just fine.
+	In the d02.pdf or norme.pdf there was mentioned that if we encounter bugs that were not our own fault, we would just have to adapt.
+	In the bootcamp we were to use gcc for compiling our code. For now my understanding is that the compiler transforms our orders (code) in to a different kind of instructions (code). After that the resulting instructions are transformed again.
+	What else than just translation happens is still a bit blurry. So what happens is that the compiler processes macros before other stuff. For some reason performance is better than it is with functions.
+	Explanation is weird for this one. Interweb tells that compiler has to search for memory address of functions that makes them perform worse. Shouldn't this be true for macros as well?
+	As to when the code is compiled I see no difference on performance. There must be a trick to it. Maybe I'll just study more on the memory side. Stack/Heap are terms that I know exist. Understanding them has proven to be a challenge.
+	While using a macro, executable (the program that is made) size grows (shouldn't be a problem especially if it improves performance).
+	Macros have no return possibilities that make them good for only some tasks. The reason why macros work fast is this says internet. Passing arguments and gettring return values is a process that takes time therefore functions are slower. What the internet didn't tell me yet is what happens if we run a function without parameters or void the return?
+
+https://www.quora.com/What-is-the-difference-between-a-macro-and-a-function-in-C-programming
+
+	Hmm.. on another site there is info that tells that macros do have return values. This happens all the time. How to decide who to believe? The obvious thing would be to test it myself but this takes time since my lvl of knowledge is too low.
+	
+
