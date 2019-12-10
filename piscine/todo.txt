@@ -1,4 +1,173 @@
 
+Piscine:
+About half has been done already but the second remake is going to be better.
+
 day00: 03(no server yet), 04(same as previous), 05(-||-), 06(-||-), 10(too time consuming), 11(just plain hard, I'll have to study more)
 
-day01: Almost all, fortunately d02 is easier.
+day01:
+
+----------------------
+
+Filosophy:
+-Write interesting thoughts related to technology.
+-Ethics in teaching kids to code.
+-Learning process on different person types. How does our brain function?
+-Ethics in hacking.
+-What happens in 100 years if nobody knows anymore how machinery work? This happens on different areas of our lives already, not only tech.
+-Do we make programs subconsciously to act like the surrounding enviroment or is it by accident? Noticing resemblenses on computer science to our brain, thought process and nature. Even social structures, communitys, nations, galaxies and atoms work much like programs. Evolution of our species is a slow and buggy version on evolution of the machine.
+-I hear a lot of talk about what the machine can learn from us, but what can we learn from the machines?
+-How can we use data to our advantage and ethics on collecting it and using it.
+-Open source code. What are the disadvantages in it?
+-What defines the "next big thing" in computing? Is it all just marketing or is there really that small amount of cool new stuff discovered?
+-Should the internet be supervised? Right now I feel that there should be anarchy, but that might be because lack of information on the subject.
+-Freedom to be anonymous does no exist. Is this a problem? If it is, how to fix?
+
+---------------------
+
+Random coding projects:
+-Numerals to roman numerals. Make with different languages to demonstrate the difference.
+-Calculate day of week since beginning of time.
+-Make a robot that fetches beer from the fridge.
+-Control panel for video editing.
+-Surveillance system.
+-Better alarm clock.
+-Electronic board designing software
+-Improve GNUBG
+-Make an own system to connect 2 computers.
+-Make an android game to learn android.
+-Bot that has a conversation with the osuuspankki-bot. Who will run out of fumes firs?
+-Platform for playing self-invented poker variants.
+-Bot that invents new poker games based on some given info.
+-Bot that finds best strategies on these games.
+-Chess and other games along with a bot that finds the best strategies for them.
+-
+
+---------------------
+
+Server:
+-Basically everything.
+-Buy some computers and install with different variations.
+-Hack your servers.
+-Get an official cert on the subject.
+
+---------------------
+
+Linux:
+-Study more.
+
+Windows:
+-At some point this has to be studied also. Most likely going to be work related.
+
+---------------------
+
+Web development:
+-Do the already purchased udemy course.
+-Learn more JS
+-Maybe get a job that supports your learning.
+-Canvas fingerprinting
+
+---------------------
+
+Security:
+-Do basic, advanced, expert courses. After finished, hack NASA (not a super account) or NSA (nice software algorithm).
+-As soon as possible, get a job on this area. So far seems the best way to learn.
+-Create a theoretical security system before gaining too much knowledge on security. This way you can create something that might not been done before.
+	-Create an virual world inside your mind and try to break in to places. After that fix the reason why you succeeded.
+	-Repeat multiple times.
+	-After you are satisfied with the result, do research on how to create the same technically in the real world.
+-Security certificates on different platforms
+-Sniffglue
+
+---------------------
+
+2 cool 4 school:
+-Make the webpages and try to find likeminded people.
+-Start teaching people.
+-Aquire material.
+-Buy more beer.
+
+---------------------
+
+Games:
+-Do a stupid chess bot. Do it in a way that by adding new code, it will lern to be less stupid:
+	-value of pieces
+	-board
+	-rules for pieces
+	-rules for game
+	-value of areas on the board
+	-special moves
+	-in game data storage
+	-post game data storage
+	-format of data should be easilly retrievable and analytics should be made easy
+	-different techniques for the bot to decide what to move.
+	-combining 2 different techniques
+	-30% 5 moves scouting for value, 30% rand, 40% position from moves 5-15 for example
+	-optimising for maximum amount of repetitions / t
+	-
+-Make a tap a button fast game.
+-Make a reaction game using mouse or keyboard.
+
+--------------------
+
+AI:
+-Make a program that makes programs. Details later.
+-Make a program that fixes your code.
+
+--------------------
+
+Theory:
+-Find out more on electricity.
+-What goes on inside your computer. Was it always like this and can this be improved?
+-Work your way down to the bottom floor. Study everything that happens from transistor to python.
+-How freqfencies work on a practical level on wireless communication.
+-Batterys.
+-Most stuff studied is theoretical therefore while(!einstein){study more;}
+-Walled gardens
+-What new does blockchain offer?
+
+---------------------
+
+3D-printing:
+-Find out more about reprap.
+-Make code for printers.
+-Design stuff to be printed.
+
+--------------------
+
+Hacking:
+-Do research on malware and old school viruses.
+-Honeypot to gain more info.
+-Try to trace the malware.
+-Make copies of entire systems for inspection.
+-Google dorking.
+-Freenet, kali, tor, vpn...
+-Backports, 5g exploiting, ipv4 & 6, SQLinjection, Mitm, rootkit, android, 
+-RFID
+-Web beacon
+-Find out about tails os and why is it not wise to use one. 
+-History of hacking and research on famous hacker groups. The shadow brokers for example. stuxnet, conficker
+-Botnet
+-Shodan
+-Mydoom
+-Iloveyou
+-WannaCry
+-Cryptolocker
+
+---------------------
+
+Compilers:
+-Find out more details on how compilers work.
+-Make a compiler after learning a lot of stuff.
+-Learn assembly and basic.
+-Learn to reverse-engineer programs.
+
+---------------------
+
+Languages:
+-Many, many, many
+-Assembly
+-Basic
+
+---------------------
+
+Get a job for christ sake
