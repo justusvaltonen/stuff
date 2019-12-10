@@ -8,7 +8,7 @@ day01:
 
 ----------------------
 
-Filosophy:
+Philosophy:
 -Write interesting thoughts related to technology.
 -Ethics in teaching kids to code.
 -Learning process on different person types. How does our brain function?
