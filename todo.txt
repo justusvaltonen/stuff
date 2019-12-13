@@ -8,7 +8,7 @@ day01:
 
 ----------------------
 
-Philosophy:
+Filosophy:
 -Write interesting thoughts related to technology.
 -Ethics in teaching kids to code.
 -Learning process on different person types. How does our brain function?
@@ -77,6 +77,7 @@ Security:
 	-After you are satisfied with the result, do research on how to create the same technically in the real world.
 -Security certificates on different platforms
 -Sniffglue
+-Try to disappear and try to track yourself
 
 ---------------------
 
