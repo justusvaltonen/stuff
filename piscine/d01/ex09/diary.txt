@@ -39,3 +39,5 @@ The legal values
 	Does this mean that either the mrdoc or the Segmentation fault base is not what it seems? Also the swearword base can be operators to when to jump to the next index of a string.
 	One possibility is also that some syntax makes us use / or some other character before some other special character to read the special character. We used \ or / before while naming the file and in C, % is used. Im never going to get some rest.
 	Where is Alan Touring when you need one.
+
+	After listening some stuff on youtube I realized that ipv6 has something to do with the number 13. Maybe the answer can be found there?
