@@ -1,0 +1,16 @@
+
+	This is an easy one. Notable stuff: The inspectors putchar is used, no functions allowed.
+	Remember to prototype ft_putchar. Now that I don't have the moulinette, I have no idea should ft_putchar return anything. Just for testing pourposes I make it return 1. No, I will make it return the write function itself and leave everything else out.
+	Is it possible to make it return nothing and put the write as the parameter itself? This would be cool but not the easiest to read.
+	Interweb told me that it is not advisable to put pointers to functions. Maybe I'll just play with it and put up a decent answer.
+	
+	I forgot to mention that to compile using gcc, just type gcc winning.c for example. It will create an a.out file that can be executed. Later we will be doing more stuff with gcc. If you for some reason want to be practical instead a no-life, you can use other compilers as well.
+
+	Stuff Ive learned about learning is weird. There are a few basic ways that humanoids learn. Efficient way is to get mad or fall in love while learning something. Some weirdos learn by just memorizing but for me at least it has not proven to be the best way to understand stuff.
+	A good way is to associate the new info you aguired to something you already know. That way the retrievability of the new skill gets a lot easier.
+	Unlearning and failing are great methods too. Even tho Im writing a walktrough, the best way is to experiment yourself and get frustrated while trying to find the info from trollsville (stackoverflow).
+
+Edvard Grieg - Hall of the mountain kings Finnish name is "vuorenpeikko". Translated back to english is troll of the mountain.
+
+	Associating freshly aquired coding skills with other freshly aquired coding skills is hard especially when half of your knowledge is flawed or seriously lacking details.
+	Realizing this makes you mad and you have to start all over. Because of this, the next time you get it better. I don't think machines have feelings but trial and error is one way they are thought.
