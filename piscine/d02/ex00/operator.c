@@ -58,4 +58,9 @@ int	main()
  * Other method is to putchar character \n that should be the same.
  * Last we are going to return 0 that tells the OS(operating system) that everything went well. I don't know if the 0 message is going to the OS or some other place that interprets it.
  * The return values are a bit strange. When we compare, the wanted return is 1 if everything went well while the main function desires the 0. Return values can be different depending on the function that was called, but that is what we see later on.
+ * Almost forgot. The reason why when we putchar dontents of lets say d, we add character 0 to it because the content of d is of type integer.
+ *For example if the content of d would be '\n' (character newline) its integer value would be 10. Computer doesn't know if we want to print an integer or a character unless we tell it.
+ If the content would be number 10, it would print a new line.
+ Number 1 is start of heading what ever that means. Number 48 is character 0.
+ Since we want to print out a nuber lookalike character, we add the number 48 or character 0. This will be used more later on.
  * */
