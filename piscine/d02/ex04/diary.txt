@@ -1,0 +1,27 @@
+
+	This seemed the first actually fun one for me. At first it seemed like a lot of work,
+but once I got started, the first thing that popped in to my head seemed to work.
+I didn't do these at the bootcamp because lack of time and skills, but did afterwards.
+The only thing is that my answer didn't fit the norme even tho the output was correct.
+I will post my initial answer and see if I can fix it to fit the sometimes impossible standards.
+
+	So the idea is to print combinations. The subject is close to my heart because
+of my poker and backgammon backround. The subject relates strongly to propabilities.
+My first answer is not the best possible since it is hard to implement on different assignments than the current we are working on.
+I think we are looking for an algorithm that can be used universally.
+Too bad I haven't read any poker books. Addition to that, the implementation of a new thing (C) to something I have a clue on is
+proving to be a hard one. Now that I have studied C, I'll try to find at least a decent answer.
+
+	Back to the assignment. First we try to find all combos for 0. The same combo of 3 numbers can't be printed.
+Also the same number can't appear 2 times in the same combo. Example:
+!010, !212, !001, !666. ! means not.
+In theory 876 could be included but most likely 678 is already printed and since the combo of these 3 individuals on the same number are checked off the list,
+we can't print it. If someone likes graphs, this is a decending one.
+
+	While surfing the internet, I stumbled in to something fun relating to graphs.
+As mentioned before, abreviations can be funny. For example my first answer on this
+assignment was wrong. When I realized this, I called my function SOB (slightly obese).
+Big O has different meanings in different instances. In poker it means omaha hi/lo, in computing it has something to do with optimization
+and for some people it has a different meaning. Lets just say that programmers are mostly responsible for their own.
+
+

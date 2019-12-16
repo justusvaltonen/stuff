@@ -1,0 +1,14 @@
+
+	Greetings traveller! This assignment was an easy one if you know the basics of C.
+Only thing that I can think of extra in this one is lower and uppercase characters.
+The ASCII value of n and N is different. While it is possible to name our functions with uppercase letters, it is not advisable.
+Uppercase letters are usually used for different things we discover later.
+There is a pdf thenorme or something like that in the piscine folder.
+It holds advise on practises that were used in the bootcamp. Most of them make sense, some don't.
+For a person new to programming, the instructions are funreadable.
+
+Tednacious D - Tribute: {He asked us: "*sngrf* Be you angels?" And we said: 
+"Ney, we are but men, ROCK! AAaahaAA, AAAah aahAAha!"}
+
+	Even though rock lyrics can hold unneccessary capitals and exclamation marks, they should be avoided in C.
+Some also say that there is something demonic in pointers (*), but theyre not that bad. 
