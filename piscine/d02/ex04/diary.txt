@@ -16,7 +16,9 @@ proving to be a hard one. Now that I have studied C, I'll try to find at least a
 Also the same number can't appear 2 times in the same combo. Example:
 !010, !212, !001, !666. ! means not.
 In theory 876 could be included but most likely 678 is already printed and since the combo of these 3 individuals on the same number are checked off the list,
-we can't print it. If someone likes graphs, this is a decending one.
+we can't print it. If someone likes graphs, this is a decending one if we are 
+inspecting the number of results based on the first number. Same goes for the
+second number.
 
 	While surfing the internet, I stumbled in to something fun relating to graphs.
 As mentioned before, abreviations can be funny. For example my first answer on this
@@ -24,4 +26,8 @@ assignment was wrong. When I realized this, I called my function SOB (slightly o
 Big O has different meanings in different instances. In poker it means omaha hi/lo, in computing it has something to do with optimization
 and for some people it has a different meaning. Lets just say that programmers are mostly responsible for their own.
 
-
+	I feel the rage growing inside of me. Should I embrace it and join the dark side?
+To me dark side means giving up on a gradeschool math problem or consulting someone
+else on it. This is really an easy one but I find it really hard to get anything done.
+Today is the premiere of the latest star wars movie. A true jedi could control ones
+feelings and just do, not try..
