@@ -1,0 +1,72 @@
+
+	An interesting one. Again at the first glance seems very easy, but..
+Ints value range is dependent on the system in use. Everything is fine if we pass
+for example 666 to the function. What if we pass 654687796546545646? Well, it 
+depends. Most likely an error occurs. Later in the future, the error doesn't neccessarily occur.
+If I did this assignment with an old amiga the max/min value of int is a lot smaller
+ than with my current equipment. The briefing says that all possible values inside 
+int type variable must be printable. How do we find out what is the max? Testing.
+Problem is that locally testing is easy, outside that it gets tricky. Locally we can just
+++; until something strange happens while every time printing the value. Recursion 
+is the devils invention. Good thing we are in the league with satan. Most likely
+I'm going to just print out an acceptable answer.
+	
+	I watched a video about macros. There are special reserved macros for time,
+date and other stuff. There also might be for system definition.
+
+	This still doesn't fix our problem. We can display but the int range of 
+our own system. I believe that the solution lies in cutting the int to pieces and 
+printing only a portion at a time. How? Some to no idea. Since we can only use 
+ft_putchar that prints 1 char at a time, we have to do wizardy anyway.
+
+	We can keep dividing the int by 10 recursively and when the local value hits
+ below 10 we take the modulo % of it and putchar the MF(most facinating). By the
+way, modulo in c is not the same as in the world outside c. It can be negative 
+for some reason without having 2 values.
+
+	Now there is a testing123.c that demonstrates a bit on the behaviour of
+ints. My computer allows me to define a 10 digit int. There are cheats on google
+to find out what your int range is. If I try to assign a too large int in my 
+function, the compiler tells me that it's not a good idea, but compiles unless
+I use added options on the compiler. When I use scanf, no warnings occur.
+This is because the compiler makes the program and there are no security measures
+for user trolling/incompetence. For sure there is a way to block this other than
+never using scanf, but I don't know it yet. What happens when I assign an 11
+digits long int via scanf? Overflow. What does that mean? Hopefully nothing
+important because I don't know yet :D.
+	I have read about overflows, but some of the stuff I've read are incorrect.
+There is info that cancels each other out and there is info that says that something
+weird happens. For now to me, something weird happens and I'll get back to it later. If you run out of int space, you can use "long int x;" to be able to store
+bigger numbers. long long int also is good. Double can be used also and it gives
+decimals too.
+
+	https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/
+
+	Reading the comments, something popped in to my head. Can we give the computer
+instructions if we just give them in the right form? If you use scanf. The program
+has already compiled and been made. This means it does the printf while running
+since it can't know what we are going to type as input. Based on the input, it 
+does stuff for example prints what we typed. From what I know from compilers,
+a lot of stuff is going on what we can't see. The commands are transformed in
+to another language that the computer understands and then acts on it.
+If we know that language, we should be able to input our own "cheat codes" like
+in 8-bit nintendo or doom. Can we command the computer to work in a different way
+that was originally intended? IDKFA! IDCLIP! IDDQD! Forget about C, I want to go
+deeper.
+
+	Ok, calm down.. I've read more comments on the site. A lot better than
+any forum I've ever stumbled on. Thank you mod! There is a lot of say about the use
+of unsigned ints (always positive, predictable out of bounds behaviour, error
+prone, can hold bigger +0 values..). Maybe, just maybe there is a better explanation
+than old systems for the existence of these. When using comparison, the signed int
+will be converted to a signed int. The computer is stupid that way. It can not
+compare the two otherwise. Some newer languages do this converting stuff also.
+It's like comparing the value for sitting between a table and a chair. Both
+are suitable, but other one is better for the job. The sittability value has
+to be calculated somehow.
+
+"From C11 6.2.5/9: "The range of nonnegative values of a signed integer type is a subrange of the corresponding unsigned integer type, and the representation of the same value in each type is the same. A computation involving unsigned operands can never overflow, because a result that cannot be represented by the resulting unsigned integer type is reduced modulo the number that is one greater than the largest value that can be represented by the resulting type.""
+
+	Here is the answer! And I can tell you it's ! 42. Now that was the easy
+part. Now to figure out how to use this info to make a function that can print 
+integer values.
