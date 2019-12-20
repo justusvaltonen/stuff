@@ -69,4 +69,29 @@ to be calculated somehow.
 
 	Here is the answer! And I can tell you it's ! 42. Now that was the easy
 part. Now to figure out how to use this info to make a function that can print 
-integer values.
+integer values. The interweb tells us that we can use size_t. Now the problem 
+arises from my lack of knowledge of bits. Back to google it is.. The world that
+I used to live in doesn't exist anymore. This will take some time for sure.
+Adapting a new set of rules to a number system I've used all my life is going to
+be fun? hard? painful? I've done this sort of stuff before so it shouldn't be 
+impossible. The thing is to trick my brain to forget the long term memory logic
+behind a class called everything. Alcohol has these side effects! 
+This doesn't sound such a good idea.
+
+	The trick is to associate what you learn to something you already know.
+I've done a lot of calculating and some things are an automation for me. Now 
+what I need to do is break the automation without actually breaking it. The other
+method is to learn by heart and brute force the info in. What a funny puzzle.
+Pen and paper or the computer? What is better? There is more freedom with the
+old ways, but there are some things that can be done better with the computer.
+They say that the pen is mightier then the sword (a sword that cuts the laptop
+in half)
+
+	Because dealing with a problem x tomorrow is my usual approach, I'll
+get back to the assignment.
+
+	Average attention span for humanoids is about 30min. I'm overdue.
+This can be increased by a bit (so funny). A video on youtube told me to count
+the time of how long does it take to lose focus on a subject. For me it's about
+25 seconds. Well, it's gone up from 15s so progress. After the focus is gone, 
+take a break. We will be handling the command break later on.
