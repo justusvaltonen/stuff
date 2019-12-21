@@ -6,9 +6,9 @@ int	main()
 	int i;
 	puts("Give an int: ");
 	scanf("%d", &i);
-	printf("\ninside the int: %d\n", i);
+	printf("\nInside the int: %d\n", i);
 
-	int predef = 12345/*6789123456*/;
+	int predef = 12345/*6789123456*/; //remove /**/ to see what happens
 	long int big = 1234567891234567891;
 
 	printf("Another int: %d\n", predef);
@@ -17,7 +17,7 @@ int	main()
 	double d = 1234567891234567891;
 	printf("Double int: %f\n", d);
 
-	unsigned u = 1234567891/*23*/;	//here is the limit
+	unsigned u = 1234567891/*23*/;	//here is the limit sort of
 	printf("Unsigned int: %d\n", u);
 
 	int info = sizeof(size_t);
@@ -25,6 +25,9 @@ int	main()
 
 	long long int huge = 1234567891234567891/*2*/;
 	printf("A big number: %lld\n", huge);
+
+	int pow = 2 ^ 3;
+	printf("2 to 3 is: %d\n", pow); //why this gives 1?
 
 	return(0);
 }
