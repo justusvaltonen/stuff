@@ -28,7 +28,8 @@ int	main()
 
 	int pow = 2 ^ 3;
 	printf("2 to 3 is: %d\n", pow); //why this gives 1?
-
+	
+	int h 
 	return(0);
 }
 /*
@@ -50,9 +51,9 @@ alalalala long, alalala lolongli long long long.
 something. 1 byte is 8 bits. 8 * 8 is 64 so my system is 64 bit something.
 This tells me that "chhh..sadlkasdl memory.. chhs.. prosessor..chhsa..performance"
 So not a lot. All I know is that 2 bits == 2^2, 4 bits == 2^4, 8 bits = 2^8.
-How convenient. So my system is 256 something. And because we are future
+How convenient. So my system is 2 ^ 64 something. And because we are future
 programmers and keeping it simple is not in fashion, we start counting from 0.
-1 byte with my current lineup can hold the values from 0-255? Should be true.
+Should be true.
 Seriously, you have to be autistic to come up with this "s..chha..t".
 
 	Interweb tells a lot of things. Among those things is the story about 
