@@ -12,8 +12,13 @@ int	fpc(char x)
 void	ft_putnbr(int nb)
 {
 	int s = sizeof(size_t);
-	
-	unsigned int c = 256 ^ (s - 1); //doesn't work, have to make it yourself.
+/*
+ *size_t is the same than unsigned int. Compilers use a macro that is not presented
+ to us to define it says the internet. Will have to test tho since it makes no
+ sense to me. I just don't know why to use it if can be replaced with unsigned.
+#typedef does the same for types (int, char..) than #define does for names
+(aeroPlane, fpc, this_is_a_silly_way_to_name_your_integer).
+ */	
 	
 	/*
 	 * We know that the signed int range is - to +.
@@ -66,6 +71,14 @@ void	ft_putnbr(int nb)
 	 * Try to make the whole thing fit in 25 lines.
 	 *
 	 * If everything fails, stackoverflow, github, no-life people.
+	 *
+	 *
+	 * All the above is useless. It was not that complicated.
+	 * No sizeof was used. Just make an unsigned int, assign it to 0
+	 * and -- it. There you have your max int range. from 0 to that.
+	 * Divide it by 2 to get your max signed int value.
+	 * Put - in front and -- to get your min signed int value.
+	 * 
 	 */
 
 
@@ -80,4 +93,7 @@ int	main()
 /*
  *Unfinished. Why is this supposed to be doable mid-day on your first day of coding?
  If someone explained in detail the answer, it still wouldn't be doable on the first date.
+ There is a library limits.h that holds value ranges to ints.
+ INT_MAX and INT_MIN are a great google search for this one
+ float.h library has more info on different types.
  */

@@ -95,3 +95,39 @@ This can be increased by a bit (so funny). A video on youtube told me to count
 the time of how long does it take to lose focus on a subject. For me it's about
 25 seconds. Well, it's gone up from 15s so progress. After the focus is gone, 
 take a break. We will be handling the command break later on.
+
+	After taking a break I realized that sizeof(size_t) can be used to
+define the absolute unsigned int size. According to the internet, this doesn't 
+neccessarily correlate with the signed int range. Nice! What if we just put
+sizeof(int) instead. Is there a standard? Before today I've only heard of 4
+byte size integers. Maybe less coffee is better after all. I was supposed to
+solve another puzzle today but forgot because got stuck on d02/ex06. I need a 
+crappier computer for testing and will not settle for a virtual machine.
+
+	Interweb tells me that when a name has _ in front of it, it is a system
+action. So if there would be a command __drink_coffee, it would mean that it 
+has something to do with the opeating system? Macros have them too.
+
+	To adopt new info on computers, it's good to learn to think everything
+in binary. My current system is odds. Adding a new way on top of an existing
+one is going to take some time, but shouldn't be that hard if you just keep on
+doing. After that the base x adoption should get easier. I just watched a 
+moveie about Srinivasa Ramanujan. In the movie, a professor asks him the square
+root of a big number and he answers straight away. In the bootcamp I was asked
+what was 666 * 666. All I could tell was that it ended with 6. I looked up the
+answer I'll forever remember it because I use memory rules. Answer is 443556.
+4x4 pickups 3 times that have assault rifle magazines on on the flatbead. 
+There were some talks about shunting yard algorithm that I got exited about.
+That is the reason for 443 instead of 344. Also some talk about ints. int 
+can't display decimals so 5.56 could't be displayed. From this I can figure out
+something about my view of numbers. Instead of efficient systems, I sometimes
+use memory rules. This also happens when I try to remember peoples names.
+
+	People do these automatications a bit differently. Almost all do them
+even tho they don't realize it. Adopting binary should help to adopt more.
+I've tried to learn about learning a lot in the recent months. The humanoid
+brain has incredible storing capasity. The thing is that we need to move the info
+from our short term memory to the hard drive. The more we use the link from the
+hard drive to the processing memory, it gets easier. As we age, the hard drive 
+becomes corrupt. Also if we want to delete stuff, its hard, but it's a process 
+that should help with learning.

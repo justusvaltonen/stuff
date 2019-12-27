@@ -29,7 +29,7 @@ int	main()
 	int pow = 2 ^ 3;
 	printf("2 to 3 is: %d\n", pow); //why this gives 1?
 	
-	int h 
+	int h; 
 	return(0);
 }
 /*
