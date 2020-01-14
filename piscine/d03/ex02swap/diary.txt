@@ -1,0 +1,8 @@
+
+If we read carefully the assignment, we are now given the addresses as input.
+In the previous assignment there was no mention about the addresses. We do know
+that no matter how many stars we use, they all refer to the address of the same
+integer. There might be a clue that the ex01 was wrong. Anyhow I choose to
+ignore this for now and just make the swap.
+
+	Come to think of it, it should be ok because what was asked was done.
