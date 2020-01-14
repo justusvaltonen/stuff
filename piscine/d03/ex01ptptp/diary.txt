@@ -1,0 +1,13 @@
+
+This is a temporary answer to get things done. A lot of things can be discovered
+here.
+
+-array stuff
+-pointer to function
+-memory slots
+-where are pointers stored and why don't they seem to take any memory
+-git and pointers
+-does the famous blockchain work with these?
+-resemblence with unix links
+-pointers in some systems to bypass security
+-functionality at compile
