@@ -32,7 +32,8 @@ int	main()
 
 /*
  *Something weird happens and the fpc('\n') is executed before anything else.
- When I have more time, I'll investigate.
+ When I have more time, I'll investigate. Also to be noted that with a different
+ compiler this doesn't manifest. Bugs with gcc, normal behaviour with clang.
 
  On the previous days assignment interweb says that when an integer goes "out of
  bounds", there should be unpredictable behaviour. This is not the case on my
