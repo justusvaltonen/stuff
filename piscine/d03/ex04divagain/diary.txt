@@ -1,0 +1,5 @@
+
+This assignment is just going over the same thing that was done before. One
+thing that puzzles me is that why are we not asked to put a return value on the
+functions. There have been times when cutting lines the stupid ways included
+putting functions as parameters. Not putting return values disables some uses.
