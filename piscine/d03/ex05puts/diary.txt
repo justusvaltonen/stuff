@@ -1,0 +1,4 @@
+
+There is a function called puts. It prints a string of text and puts a \n at the
+end. The assignment asks us to make a function that takes a string as input.
+No '\n' at the end.
