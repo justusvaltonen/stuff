@@ -1,0 +1,22 @@
+
+When we run the program that comes out of test2.c, we can see that the memory
+addresses alter on every execution. This gives small insight on what happens
+in our computers memory at runtime.
+
+Also now I know that pointers indeed take some space in the memory. My guess is
+that an int pointer takes 4 bytes.
+
+Alot can be figured out by just testing pointers. To understand what these
+outputs mean, you have to know something about the output with printf.
+Humanoids use base 10. This means we have 1 number digits from 0 to 9.
+Printfanoids or computeroids use 0-9 and a-f so 16 different symbols before
+moving to 2 digit numbers. Also binary numbers are present but not in this
+assignment. %p gives output on a hexadecimal way. There might be a way get the
+output on a normal base 10 way but I don't know what it is
+
+#define Computeroid hexadecimal
+
+Examples:
+Humanoid: 1, 8, 13, 30, 38
+Computeroid: 1, 8, d, 1e, 26
+Binarynoid: 1, 1000, 1101, 11110, 100110
