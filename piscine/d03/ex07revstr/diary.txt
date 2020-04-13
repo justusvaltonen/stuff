@@ -1,0 +1,13 @@
+
+	Looking at my own code from way back makes me feel like an idiot. I can
+see what I was thinking and why. Just the knowledge is lacking. This is a
+disease that is very common. The time one can spend on finding out the answer to
+a simple problem can never be underestimated. Right now I'm doing these
+assignments all over again. The initial answers were just plain bad. Finding the
+right source of information that is human-readable is pain in the ASS. Logic
+behind this one is not the hard part, but the knowledge of how the function can
+be called was not the easiest to find out.
+	Now it's quite clear and a given that the function is called with a
+pointer called str. The pointer points to an array that is an area reserved in
+the memory for a consecutive string of characters. What is returned is the 
+memory area of where the pointer points to.
