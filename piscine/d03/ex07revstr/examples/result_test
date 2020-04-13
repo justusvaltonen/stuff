@@ -1,0 +1,37 @@
+
+Memory address of a and b that are in different functions are the same.
+
+
+MA of fun, func, arr:
+0x55ef9f18973a,
+0x55ef9f18979f,
+0x55ef9f189804
+--------------
+MA of fun/a: 0x7ffcf8ce1df4
+----------
+--------------
+MA of fun/a: 0x7ffcf8ce1df4
+----------
+-------------
+MA of func/b: 0x7ffcf8ce1df4
+----------
+MA of pm: 0x7ffcf8ce1e10
+-------------
+arr/putchar(*p): T
+MA of arr/p pointer: 0x7ffcf8ce1dd8
+MA of arr/str: 0x7ffcf8ce1df3
+MA of arr/pa: 0x7ffcf8ce1de8
+MA of arr from arr perspective: 0x55ef9f189804
+MA of arr/copyof *p: 0x7ffcf8ce1dd8
+-----------
+MA of fun, func, arr:
+0x55ef9f18973a,
+0x55ef9f18979f,
+0x55ef9f189804
+-------------
+MA of func/b: 0x7ffcf8ce1df4
+----------
+
+This was to spectate if we can figure something out of the MA:s. While it seems
+that we could, we actually can't as much that one might at first glance think.
+We will go through this later on.
