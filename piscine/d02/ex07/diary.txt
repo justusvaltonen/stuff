@@ -1,0 +1,26 @@
+
+	I'm a bit tired after the last assignment but let's see how it goes.
+It's always great to notice that tens of hours of study was sort of waste of
+time. Of course it wasn't because I learned a lot during that time, but still it
+was a battle. The current assignment looks like it could be done via int array.
+At the first glance something I've never succesfully done is needed here.
+
+	On the last assignment I'm not sure if I got the right answer since
+it's hard to test with only one computer. I need to get the rasberry so I can 
+test with a crappy enviroment. The current assignment seems quite easy once I 
+get my head together first.
+
+	OK, so back to this one. It is clear that I'm bored because of the time
+I've spent on this one. At first this seemed an easy one but since I'm missing
+a gear in my brain, this was hard. I still don't have the totally correct
+answer since the norm, but I got it to work.
+
+	The trick that made a difference for me was to divide the program in to
+small functions and calling them over and over again. There is propably better
+ways of solving this. I made notes on another file "try1.c". Whenever a is 3 or
+bigger and printing is done afterwards, there is an error. Also endcondition is
+missing along with a bunch of other stuff.
+
+	Other thing that might come in handy is remembering that arr[n] <
+arr[n + 1] always. Also don't go out of bounds of the first initialized array
+area. This applies when comparing or changing the memory area.

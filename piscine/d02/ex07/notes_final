@@ -1,0 +1,99 @@
+
+AA
+	We have to assing an array of size n(amount of digits) to assign to
+memory the size of the area we are accessing. After that we assign a pointer
+to the first memory address of that array. Since we are dealing with numbers, 
+the array is of type int. Pointer p is also an int pointer. We could use a 
+character pointer but then when accessing the next address where the pointer
+points to would be 1 byte after the arr[0]. In this case the value would be
+something different than the next value of the array. When we use int pointer,
+the next address is 4 bytes after arr[0] and the value should be correct. Int i
+is just an int variable to access addresses of arr throug p.
+
+BB
+	This is extra just to spectate how many combinations there are depending
+on the input. Every time a combo is printed, combos is increased. In the end we
+print the amount of combos found.
+
+CC
+	Using for loops is banned but I'm going to use use them anyway. First
+task of for loop is to set a variable to a value. Second is the condition of
+do while. We are doing the loop as long as i is smaller than n. This check is 
+done everytime the body of the loop is finished. This doesn't apply to the 
+i = 0; section. That one is done only one time. The i++ is done every time the
+loop has finished. If we use ++i instead, the i is incremented before the loops
+body starts running and not at the end. *(p + i) = i part is done to set the
+first values of the array. When we use the () the thing inside is executed
+before anything else. Example: i == 2 --> slot 2 after p[0] is under spectation.
+since we are dealing with ints, that means 8 bytes after p[0]. Since p is bound
+to arr, we are specatating the slot arr[2]. The * means that we are accessing 
+the value instead of the memoryslot.
+	If we were to use *p + i and i == 2, we would be accessing arr[0] and
+add i to it in a non possible way. If we were to do: int a = *p + i;
+would be correct. a becomes the value of arr[0] + value of i. So.. in the 
+final.c, if i == 2, we would assign arr[2] the value 2.
+
+DD
+	We are doing the while loop as long as the return value of the function
+endcon is 1. We are also passing a copy of an int variable that is a copy of the
+initial int variable first assigned in main function. The value of n is the same
+throughout the whole program. We also pass a copy of the pointer that first
+appeared in the function comb. Because the pointer is a copy, it points to the
+same memory slot as the initial pointer (&arr[0]).
+	We make a local int variable called i inside the endcon function as well
+as another variable called end. If end achieves the value of n, we know that the
+program has served us well and we exit the function while returning a demonic
+number to whomever called the function.
+	We make a for loop that executes n times. On every loop we add 1 to i
+after the body of the for loop has executed. If p[i] or p + i has the value that
+is the same as 10 - n + i, we add one to end. Example: n = 2; This means we are
+looking for combiations of 2 digits starting from 0,1. We go trough the combos
+in an incrementing order. This means the last values can be 8,9. Therefore
+arr[0] can't exceed 8 and arr[1] can't exceed 9.
+	If in the maximum case i == 0 --> *(p + i) == p + 0 value == 8.
+10 - 2 + 0 == 8 we add 1 to end. Then we add 1 to i that is still < 2. p + 1:
+The next memoryslot, 4 bytes after p. Because we use the *, we spectate the
+value that has lets say 9. 10 - 2 + 1 == 9. We add 1 to end again. Now end is 2,
+then we add 1 to i that is now 2 means we exit the for loop. 2 - 2 == 0 so we
+exit the function and give an answer of 666. If any other values than 8,9 are
+at arr[0] and arr[1], the end doesnt reach 2 and we skip the return(666)
+section and exit with return value 1.
+
+EE
+	Output function or print to screen function. We pass a copy of int n and
+copy of pointer p or the address where p points to. Inside function out we print
+the value of each element of the array with putchar function that should be the
+same as ft_putchar. Since the function likes characters better than ints, if we
+don't add the 48 to the value of what we want printed, we would get the
+character that is assigned to the number in the ASCII table. Number 48 is
+character 0. This means that if we want to print 2, we would pass 50 to putchar.
+	Next we check if this is the last instance of printing. If so we don't
+print the ',' and ' '.
+
+FF
+	Function change changes the values inside the array. Integer variable
+cond is needed to handle an exeption. If we don't use endcon as the while loop
+trigger in comb, the first line inside if condition in change() would cause an 
+error. Now because endcon trigger, change can't recieve arr[0] == max value.
+So.. if on any iteration of i the maximum value of arr[i] is found, the previous
+slot of arr is incremented by 1.. that is if exeption trigger 'cond' in 0 mode.
+After that arr[i] becomes the value of the previous and 1 is added to it.
+cond trigger is incremented every time this happens.
+	If no maximum value is found, the last slot of the array is incremented
+by 1. To ever gain access to the last slot, i must be on it's maximum before
+breaking out of the for loop. If for instance with n = 4, 0189 as the array
+values, i gets to be 2, if condition is valid, arr[1] is changed to 2, arr[2] is
+changed to 3, cond is changed to 1 and i is changed to 3.
+	Now if check is triggered, arr[3] changes to 10 and after that it
+changes again to 4. Cond is then changed to 2 not that it matters any more.
+After a function is finished, all data inside the function is lost. This means
+that when we call the function again, all the local values are reset. When using
+pointers, we don't change the values inside these functions, but we change the
+values of where the pointer points to. In this instance, arr inside comb
+function.
+	The last combination is never printed since out function is not accessed
+because endcon check. The last combo is printed outside the comn() while loop
+and combocounter is incremented by 1 to get the correct answer. Hail satan!
+The assignment is complete. No points will be gained if copied as the answer in
+the bootcamp but hey, points are just integers with no useful properties in the 
+humanoid world.
